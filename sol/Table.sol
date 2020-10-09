@@ -1,3 +1,5 @@
+pragma solidity ^0.4.24;
+
 contract TableFactory {
     function openTable(string memory) public view returns (Table); //open table
     function createTable(string, string, string) public returns (int256); //create table
